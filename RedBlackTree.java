@@ -85,7 +85,7 @@ public class RedBlackTree extends AbstractSelfBalancingBinarySearchTree {
      * {@inheritDoc}
      */
     @Override
-    protected Node getMinimum(Node node) {
+    public Node getMinimum(Node node) {
         while (node.left != nilNode) {
             node = node.left;
         }
