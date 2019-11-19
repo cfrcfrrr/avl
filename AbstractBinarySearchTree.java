@@ -285,7 +285,7 @@ public abstract class AbstractBinarySearchTree {
         return node;
     }
 
-    private Node getMaximum(Node node) {
+    public Node getMaximum(Node node) {
         while (node.right != null) {
             node = node.right;
         }
