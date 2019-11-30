@@ -1,10 +1,7 @@
 package com.tree2;
 
 /**
- * Red-Black tree implementation. From Introduction to Algorithms 3rd edition.
- * 
- * @author Ignas Lelys
- * @created May 6, 2011
+ * 红黑树实现，在二叉搜索树的基础上建立，同时注意为什么二叉平衡树数据结构那么好，而不用
  * 
  */
 public class RedBlackTree extends AbstractSelfBalancingBinarySearchTree {
