@@ -2,7 +2,6 @@ package com.tree2;
 
 /**
  * 二叉平衡树实现
- * 
  */
 public class AVLTree extends AbstractSelfBalancingBinarySearchTree {
 	
