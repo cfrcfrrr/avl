@@ -10,6 +10,7 @@ public class BinarySearchTree extends AbstractBinarySearchTree {
         return new Node(value, parent, left, right);
     }
     
+	
     public static void main(String[] args) {
 		BinarySearchTree bst = new BinarySearchTree();
 		bst.insert(3);
